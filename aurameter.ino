@@ -1,9 +1,10 @@
 /*
 This is the aura-meter sketch by Emil Hannes (ratew on github)
-So you have a LCD I2C, Sonar distance sensor, capacitive touch sensor and passive buzzer connected to the arduino uno r3
-first you go into default
-mode where the max aura is 3,000-10,000, if you hold the capacitive touch sensor then it goes to high mode
-with a maximum aura of 1,000,000 - "fuse broken" (1,000,001)
+So you have a LCD I2C, Sonar distance sensor, capacitive touch sensor
+and passive buzzer connected to the arduino uno r3
+first you go into default mode where the max aura is 3,000-10,000,
+if you touch the sensor then it displays a "glitch" with 99999999 aura,
+then it says "fuse failure" and resets
 The buzzer buzzes accordingly aswell.
 */
 
